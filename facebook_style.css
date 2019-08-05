@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+}
+
+div{
+    background-color:#3b5998; 
+    padding:10px;
+    font-size: 50px;
+    color:white;
+    text-indent: 180px;
+    font-family: red-serif;
+    height: 75px; 
+}
+
+label{
+    font-size: 18px;
+    position: absolute;
+}
+
+#em_ps{
+    right: 400px;
+}
+
+input{
+        position: absolute;
+        top: 40px;
+        right:340px;
+}
+
+#one{
+        font-size: 18px;
+        position: absolute;
+        right:200px;
+}
+    
+#two{
+    position: absolute;
+    top: 40px;
+    right: 140px;
+    
+}
+    
+#three{
+    position: absolute;
+    top: 40px;
+    right: 65px;
+    
+}
+
+a{
+      font-size: 15px;
+      color: white;
+      text-decoration: none;
+      position: absolute;
+      top: 70px;
+      right:405px;
+
+}
+
+#four{
+      background-color:#f7f7f7;
+      color: black;
+    font-size: 40px;
+     text-indent: 800px;
+     height: 900px;
+     padding: 10px;
+
+    
+}
+  
+    
+h1{
+     font-size: 20px;
+     bottom: 10px;
+   
+}
+   
+.down_small_input{
+     position: absolute;
+     top: 205px;
+     padding: 8px;
+     left: 820px;
+    }
+
+#six{
+     left: 1005px;
+}
+
+#seven{
+     top: 260px;
+}
+   
+#eight{
+     top: 400px;
+}
+
+.down_input{
+ position: absolute;
+ top: 320px;
+ left: 820px;
+ width: 360px;
+ padding: 8px;
+}
+
+.down_text{
+ font-size: 25px;
+ color:#848482;
+ position:absolute;
+}
+
+#birth, #gend{
+    left: 20px;
+}
+
+#birth{
+    top: 365px;
+}
+
+#gend{
+    top: 450px;
+}
+
+
+.five{
+  /* position:absolute; */
+  right:470px;
+  top:493px;
+}
+
+.down_non_opac_text{
+ font-size: 18px;
+ /* position:absolute; */
+  right:495px;
+  top:490px;
+}
+
+#nine{
+ font-size: 18px;
+ position: absolute;
+  right:350px;
+  top:490px;
+}
+
+#ten{
+ /* position: absolute; */
+  right:330px;
+  top:493px;
+}
+
+
+img:hover{
+ color: powderblue;
+ position:relative;
+ top:200px;
+ border-radius: 200px;
+ box-shadow: 3px;
+ display: inline-block;
+}
