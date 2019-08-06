@@ -17,34 +17,36 @@ label{
     position: absolute;
 }
 
-#em_ps{
-    right: 400px;
+/* em_ps = email or phone text */
+#em_ph{
+    right: 390px;
+}
+
+/* ps = password text */
+#ps{
+    right:230px;
 }
 
 input{
-        position: absolute;
-        top: 40px;
-        right:340px;
+    position: absolute;
+    top: 40px;    
 }
 
-#one{
-        font-size: 18px;
-        position: absolute;
-        right:200px;
+/* input box for em_ps */
+#em_ph_input{
+    right:340px;
 }
     
-#two{
-    position: absolute;
-    top: 40px;
+/* input box for ps */
+#ps_input{
     right: 140px;
-    
 }
     
-#three{
-    position: absolute;
+/* log_bt = log in button */
+#log_bt{
     top: 40px;
     right: 65px;
-    
+    cursor: pointer;
 }
 
 a{
@@ -53,28 +55,25 @@ a{
       text-decoration: none;
       position: absolute;
       top: 70px;
-      right:405px;
-
+      right:395px;
 }
 
-#four{
-      background-color:#f7f7f7;
-      color: black;
+main{
+    background-color:#f7f7f7;
+    color: black;
     font-size: 40px;
-     text-indent: 800px;
-     height: 900px;
-     padding: 10px;
-
-    
+    text-indent: 800px;
+    height: 900px;
+    padding: 10px;
 }
   
     
 h1{
      font-size: 20px;
      bottom: 10px;
-   
 }
-   
+
+/* the input box that are little */
 .down_small_input{
      position: absolute;
      top: 205px;
@@ -82,77 +81,92 @@ h1{
      left: 820px;
     }
 
-#six{
+
+ /* Ln = Last name input box */
+#Ln_input{
      left: 1005px;
 }
 
-#seven{
-     top: 260px;
-}
-   
-#eight{
-     top: 400px;
-}
-
+/* the input boxes that are big */
 .down_input{
  position: absolute;
- top: 320px;
  left: 820px;
  width: 360px;
  padding: 8px;
 }
 
+/* em_ph input box for the down div or main now */
+#em_ph_down_input{
+    top: 260px;
+}
+
+/* ps input box for down div or main now */
+#ps_down_input{
+    top: 320px;
+}
+  
+/* bth = birthday input box */
+#bth_input{
+    top: 400px;
+}
+
+/* The texts that are in the down div and grey in color */
 .down_text{
  font-size: 25px;
+ left: 20px;
  color:#848482;
  position:absolute;
 }
 
-#birth, #gend{
-    left: 20px;
-}
-
+/* the birdthday text */
 #birth{
     top: 365px;
 }
 
+/* the gender text */
 #gend{
     top: 450px;
 }
 
-
-.five{
-  /* position:absolute; */
-  right:470px;
-  top:493px;
-}
-
+/* The texts that are not grey in color */
 .down_non_opac_text{
  font-size: 18px;
- /* position:absolute; */
-  right:495px;
+ position:absolute;
   top:490px;
 }
 
-#nine{
- font-size: 18px;
- position: absolute;
-  right:350px;
-  top:490px;
+/* male text */
+#ml_text{
+    right:660px;
 }
 
-#ten{
- /* position: absolute; */
-  right:330px;
-  top:493px;
+/* female text */
+#fml_text{
+    right:495px;
 }
 
+input[type="radio"]{
+  position: relative;
+  top: 205px;
+}
+
+input[value="female"]{
+    left: 1000px;
+}
+
+input[value="male"]{
+    left: 860px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:200px;
+    left: 300px;
+}
 
 img:hover{
- color: powderblue;
- position:relative;
- top:200px;
- border-radius: 200px;
- box-shadow: 3px;
+ border:1px solid powderblue;
  display: inline-block;
 }
